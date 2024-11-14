@@ -1,0 +1,108 @@
+
+ion-content {
+  --background: #c24b4b; 
+}
+
+
+ion-header {
+  --background: #e3e0da; 
+  color: #382e2e; 
+  border-bottom: 2px solid #b3b0ac;
+}
+
+ion-toolbar {
+  --background: #d1c9c2; 
+  color: #2e2e2e;
+  padding: 0 15px;
+}
+
+ion-title {
+  font-size: 1.6rem;
+  font-family: 'Cinzel', serif;
+  color: #2e2e2e;
+  text-shadow: 1px 1px 2px #d4d4d4;
+}
+
+
+ion-button {
+  --border-radius: 6px;
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+}
+
+ion-button[color="primary"] {
+  --background: #c3b8a3;
+  --background-hover: #b2a292;
+  color: #2e2e2e;
+  border: 1px solid #a69785;
+}
+
+ion-button[color="danger"] {
+  --background: #e57373; 
+  --background-hover: #d32f2f;
+  color: #ffffff;
+  border: 1px solid #d59b9b;
+}
+
+
+ion-card.mahasiswa-card {
+  --background: #f5f5f5; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #b3b0ac;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 15px;
+  font-family: 'Cinzel', serif;
+}
+
+ion-card.mahasiswa-card ion-label {
+  color: #2e2e2e; 
+}
+
+
+ion-item {
+  --inner-padding: 10px 0;
+  color: #5a5a5a; 
+}
+
+ion-label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+  color: #5a5a5a;
+}
+
+ion-label p {
+  color: #757575; 
+  font-size: 0.9rem;
+}
+
+
+ion-input {
+  --background: #ffffff; 
+  border-radius: 4px;
+  border: 1px solid #b3b0ac;
+  padding: 8px 12px;
+  font-family: 'Cinzel', serif;
+}
+
+
+ion-modal {
+  --background: #d29d9d; 
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-family: 'Cinzel', serif;
+}
+
+ion-modal ion-header {
+  --background: #c8ab71; 
+}
+
+ion-modal ion-title {
+  color: #2e2e2e; 
+}
+
+
+ion-row {
+  margin-top: 15px;
+}
